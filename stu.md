@@ -21,6 +21,7 @@
 |-------|----|---------|-------|-----|
 |学生ID|sid|int（4）|not null| 成绩表的外键|
 |课程ID|cid|int(4)|not null|成绩表的外键|
+|成绩|grade|int（4）|not null||          |
 
 
 
