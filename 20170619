@@ -1,0 +1,10 @@
+## Apache, CGI及MySQL的C接口介绍
+
+
+Apache安装：
+```sql
+    sudo apt-get update
+    ```
+    sudo apt-get install tasksel
+    sudo tasksel
+```
