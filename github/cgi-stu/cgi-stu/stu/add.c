@@ -94,7 +94,7 @@ fclose(fd);
 
 
 
-	sprintf(sql,"insert into information values(%d,'%s','%s')",
+	sprintf(sql,"insert into information values(%d,'%s','%s',1)",
 	atoi(ino),name,sept);
 	if (mysql_real_query(db, sql, strlen(sql) + 1) != 0)
 	{

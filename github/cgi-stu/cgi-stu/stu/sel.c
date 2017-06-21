@@ -53,11 +53,11 @@ FILE * fd;
 
 	if (name[0] == '*')
 	{
-		sprintf(sql, "select * from information");
+		sprintf(sql, "select iid,iname,sid from information where status=1");
 	}
 	else
 	{
-		sprintf(sql, "select * from information where iname = '%s'", name);
+		sprintf(sql, "select iid,iname,sid from information where iname = '%s' and status=1", name);
 	}
 
 
